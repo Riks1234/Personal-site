@@ -1,0 +1,148 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #38A3A5;
+}
+
+h2{
+  font-family: 'Montserrat', serif;
+  color: #38A3A5;
+  padding-bottom: 50px;
+  width: 50%;
+  margin: auto;
+}
+
+h3{
+  font-family: 'Montserrat', serif;
+  color: #11999E;
+}
+p{
+  line-height: 2;
+  height: 64px;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #5C33F6;
+}
+
+ul{
+  list-style-type: none;
+  background-color: #1597E5;
+  margin: 0;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top:0;
+}
+
+li{
+  display: inline;
+  padding: 20px;
+}
+
+.intro{
+  width: 40%;
+  margin:auto;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom: 300px;
+  left:250px;
+}
+
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:100px;
+}
+
+.top-container{
+  background-color: #CDF0EA;
+  position: relative;
+  padding-top:  120px;
+}
+
+.middle-container{
+  margin-bottom: 100px ;
+  padding-top: 100px;
+}
+
+.bottom-container{
+ background-color: #CDF0EA;
+ padding: 50px 0 20px 0;
+}
+
+.school{
+  width: 50%;
+  margin: 50px auto 0 auto;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.school-image{
+  float: left;
+  margin-right: 30px;
+}
+
+.college-image{
+  float: right;
+  margin-left: 30px;
+}
+.btn {
+  background: #2188cc;
+  background-image: -webkit-linear-gradient(top, #2188cc, #1981c2);
+  background-image: -moz-linear-gradient(top, #2188cc, #1981c2);
+  background-image: -ms-linear-gradient(top, #2188cc, #1981c2);
+  background-image: -o-linear-gradient(top, #2188cc, #1981c2);
+  background-image: linear-gradient(to bottom, #2188cc, #1981c2);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3bb1f5;
+  background-image: -webkit-linear-gradient(top, #3bb1f5, #1d9ceb);
+  background-image: -moz-linear-gradient(top, #3bb1f5, #1d9ceb);
+  background-image: -ms-linear-gradient(top, #3bb1f5, #1d9ceb);
+  background-image: -o-linear-gradient(top, #3bb1f5, #1d9ceb);
+  background-image: linear-gradient(to bottom, #3bb1f5, #1d9ceb);
+  text-decoration: none;
+}
+
+.copyright{
+  color: #EAF6F6;
+}
+
+.nav{
+  color:  #ffffff;
+}
+.contact-me{
+  width: 50%;
+  margin: auto;
+}
